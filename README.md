@@ -7,5 +7,5 @@ Some fun facts about me:
 3. I am hyperflexible in my joints.
 
 # Table of Contents
-[Link to Assignment 1](assignments/assignment1.md)
+[Link to Assignment 1](assignments/assignment1.md)  
 [Link to PSet 1](assignments/pset1.md)
