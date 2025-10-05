@@ -58,7 +58,10 @@ Baker House is a student dormitory on campus that resides within Dorm Row. I hav
     **actions**   
     checkoutItem(kerb: String, item: Item)
         **requires** item a valid item, kerb is a resident in the Roles
-        **effects** an expiry Date is set
+        **effects** an expiry Date is set   
+    checkinItem(item: Item)  
+        **requires** item is in the set of checked out items  
+        **effects** removes item from set of checked out items  
     notifyCheckout()
         **effects** sends an email to the kerb as a reminder to check the item back in
 3. ViewItems
@@ -136,5 +139,6 @@ Louis is a resident of Baker, and has been working very hard on his school work 
 Louis decides to check the Baker Belongings inventory to see what Baker Desk has available. He logs into the site, with his easily-remembered username and password, and clicks down to the Residents inventory view. Scrolling through the list he is surprised! There are a ton of items available for checkout. It's a little overwhelming, so he uses the 'Sports' flag to filter the inventory results. Only a hanful of items are displayed now. He scolls past the ice skates and the spikeball nets. There's what he's looking for! The tennic rackets are available for checkout. Pleased, Louis heads down from his room to Baker Desk.   
 
 Arriving at Baker Desk, Louis sees his friend Daisy on shift. After exchanging greetings, he asks Daisy if he can check out two rackets (one for his friend Herby) from behind desk. "Of course!" Daisy says, "Let me just see your school id." Daisy searches through the catalog of desk items, finding the tennis rackets quickly. She clicks 'Checkout', and inputs Louis's kerb, which autofills by Daisy typing in his name. Just like that, Louis has checked out his rackets.   
+
 
 Fast-forward a few days. Louis had a great time playing tennis, but accidently forgot to return the tennis rackets when he got back to Baker. A member of the housteam, Geraldine, now wants to check out the tennis rackets. She sees that Louis forgot to return the rackets, and contacts him directly. He is able to return the rackets just in time, and will remember to return them sooner for the next time!  
