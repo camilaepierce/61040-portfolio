@@ -6,6 +6,11 @@ Some fun facts about me:
 2. I have been trying to get good at making coffee.
 3. I am hyperflexible in my joints.
 
+[ ]Test Checklist
+| ✓ | Feature                               | Lead         | Date   | Notes                                                                 |
+|---|----------------------------------------|--------------|--------|------------------------------------------------------------------------|
+| [ ] | Concept Specs Completed               | All, divided | 11/
+
 # Table of Contents
 [Link to Assignment 1](assignments/assignment1.md)  
 [Link to PSet 1](assignments/pset1.md)  
